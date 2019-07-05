@@ -14,6 +14,16 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
+// var loc = [
+//   {name: "dhaka"},
+//   {name: "chittagong"},
+//   {name: "sylhet"},
+//   {name: "barisal"},
+//   {name: "rajshahi"},
+//   {name: "khulna"},
+//   {name: "rangpur"},
+//   {name: "mymensingh"},
+// ];
 
 $(document).ready(function(){
   $("select.district").change(function(){
