@@ -20,6 +20,12 @@
     position: relative;
     float:left;
 }
+
+#allDatas{
+    float: left;
+    font-size: 120%;
+    line-height: 1.6;
+}
 .collapsible {
     background-color: #777;
     color: white;
