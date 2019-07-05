@@ -3,17 +3,17 @@ Name: Enviro-Map
 Application Objective: Provide Location based environment data to researchers/students.
 
 Home: Gives a description of the objective of the application. The services provided and a 'Contact Us' section.
-![Home](Assignment1\vendor\images\Screenshot 1.png?raw=true "Home")
+![Screenshot 1](https://user-images.githubusercontent.com/50309322/60738380-f913d400-9f7f-11e9-8fbe-e470e07d2bbf.png)
 
-![Home](vendor/images/Screenshot 2.png?raw=true "Home")
+![Screenshot 2](https://user-images.githubusercontent.com/50309322/60738403-0f219480-9f80-11e9-832a-78640459816a.png)
 
 Map: An interactive Map from Leaflet, an open-source JavaScript library for mobile-friendly interactive maps. Default view is set over Bangladesh. Then a MapLayer is integrated over it from the 'World's Air Pollution: Real-time Air Quality Index' which is provided for free, as long as attribution is provided to the owner.
 
-![Map](vendor/images/Screenshot 3.png?raw=true "Map")
+![Screenshot 3](https://user-images.githubusercontent.com/50309322/60738423-1ba5ed00-9f80-11e9-97c3-f837506544fc.png)
 
 Data Section: Here environmental data are provided based on location that User can select. The first two data (Temperature and Humidity) has been made functional to show that it works. The rest of the data will be poplated from a database in the future.
 
-![DataViewer](vendor/images/Screenshot 4.png?raw=true "Data Viewer")
+![Screenshot 4](https://user-images.githubusercontent.com/50309322/60738443-282a4580-9f80-11e9-86e0-9b6b426e9eee.png)
 
 FUNCTIONALITIES TO BE ADDED IN THE FUTURE:
 
