@@ -14,21 +14,28 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
-// var loc = [
-//   {name: "dhaka"},
-//   {name: "chittagong"},
-//   {name: "sylhet"},
-//   {name: "barisal"},
-//   {name: "rajshahi"},
-//   {name: "khulna"},
-//   {name: "rangpur"},
-//   {name: "mymensingh"},
-// ];
+var loc = [
+  {name: "dhaka", temperature: "37°C", humidity: "72%"},
+  {name: "chittagong", temperature: "33°C", humidity: "81%"},
+  {name: "sylhet", temperature: "34°C", humidity: "79%"},
+  {name: "barisal", temperature: "32°C", humidity: "75%"},
+  {name: "rajshahi", temperature: "28°C", humidity: "60%"},
+  {name: "khulna", temperature: "30°C", humidity: "77%"},
+  {name: "rangpur", temperature: "33°C", humidity: "80%"},
+  {name: "mymensingh", temperature: "32°C", humidity: "70%"},
+];
 
 $(document).ready(function(){
   $("select.district").change(function(){
       var selectedDistrict = $(this).children("option:selected").val();
       //alert("You have selected the district - " + selectedDistrict);
       console.log(selectedDistrict)
+      for (var i = 0; i < loc.length; i++){
+        if (loc[i].name == selectedDistrict){
+          $('#temp').text(loc[i].temperature);
+          $('#humid').text(loc[i].humidity);
+        }
+      }
   });
+
 });
