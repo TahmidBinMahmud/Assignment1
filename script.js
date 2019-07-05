@@ -13,3 +13,12 @@ for (i = 0; i < coll.length; i++) {
     } 
   });
 }
+
+
+$(document).ready(function(){
+  $("select.district").change(function(){
+      var selectedDistrict = $(this).children("option:selected").val();
+      //alert("You have selected the district - " + selectedDistrict);
+      console.log(selectedDistrict)
+  });
+});
